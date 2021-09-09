@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1D293A;
+}
+
+.flex-container-column-cal {
+    width: 350px;
+    margin: 50px auto 0;
+    padding: 0 20px 20px;
+    color: white;
+}
+
+.flex-container-row {
+    display: flex;
+    text-align: center;
+}
+
+.history-cal {
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    letter-spacing: .05em;
+}
+
+.history-cal h4 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.history-list p:first-child {
+    color: #fff;
+}
+
+.history-list p {
+    font-size: 0.8em;
+    margin-bottom: 5px;
+    color: #aaa;
+}
+
+.display {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.button {
+    flex-basis: 25%;
+    background-color: #354357;
+    padding: 20px;
+    margin: 5px;
+    font-size: 16px;
+    box-shadow: 1px1px 3px black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(54, 6, 133);
+}
+
+.double {
+    flex-basis: 50%;
+}
